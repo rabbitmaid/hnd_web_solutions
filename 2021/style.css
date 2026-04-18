@@ -1,0 +1,15 @@
+.form-group {
+    margin-bottom: 8px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.levels {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    display: block;
+}

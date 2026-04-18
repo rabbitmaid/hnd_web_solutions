@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="">
+
+       <div class="form-group">
+         <label for="firstName">First Name</label>
+         <input type="text" id="firstName" placeholder="TUBUO" required />
+       </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="ministry@gmail.com" required />
+        </div>
+    
+       <div class="form-group">
+         <label for="subject">Subject</label>
+         <input type="text" id="subject" placeholder="programming" required />
+       </div>
+
+        
+       <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country" required>
+                <option disabled selected>none</option>
+                <option value="cameroon">Cameroon</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="togo">Togo</option>
+                <option value="gabon">Gabon</option>
+            </select>
+       </div>
+
+       <div class="form-group">
+            <label for="comment">Comment</label>
+            <textarea id="comment" required></textarea>
+       </div>
+
+       <div class="form-group">
+            <label for="gender">Gender</label>
+            
+            <div>
+                <label for="M">M</label>
+                <input type="radio" name="gender" id="M" />
+
+                <label for="F">F</label>
+                <input type="radio" name="gender" id="F">
+            </div>
+
+       </div>
+
+
+       <div class="form-group">
+
+            <label for="level">Highest degree level</label>
+
+            <div class="levels">
+                
+                <div>
+                    <input type="checkbox" id="post-doc">
+                    <label for="post-doc">Post-Doc</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="phd">
+                    <label for="phd">PhD</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="msc">
+                    <label for="msc">Master/Msc</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="bsc">
+                    <label for="bsc">Licence/Bsc</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="bacc">
+                    <label for="bacc">BACC/AL-GCE</label>
+                </div>
+
+            </div>
+
+       </div>
+
+  
+       <button type="reset">Reset</button>
+       <button type="submit">Submit</button>
+
+    </form>
+  
+        
+
+
+    
+</body>
+</html>
