@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: orange;
+}
+
+.left {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    column-gap: 10px;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
