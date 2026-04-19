@@ -1,105 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B</title>
+    <title>Web 2021 (b)</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <form action="">
 
-       <div class="form-group">
-         <label for="firstName">First Name</label>
-         <input type="text" id="firstName" placeholder="TUBUO" required />
-       </div>
+        <table>
+            <tr>
+                <td>
+                    <label for="firstName">First Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="firstName" placeholder="TUBUO" required />
+                </td>
+            </tr>
 
-        <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="ministry@gmail.com" required />
-        </div>
-    
-       <div class="form-group">
-         <label for="subject">Subject</label>
-         <input type="text" id="subject" placeholder="programming" required />
-       </div>
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+                <td>
+                    <input type="email" id="email" placeholder="ministry@gmail.com" required />
+                </td>
+            </tr>
 
-        
-       <div class="form-group">
-            <label for="country">Country</label>
-            <select id="country" required>
-                <option disabled selected>none</option>
-                <option value="cameroon">Cameroon</option>
-                <option value="nigeria">Nigeria</option>
-                <option value="togo">Togo</option>
-                <option value="gabon">Gabon</option>
-            </select>
-       </div>
+            <tr>
+                <td><label for="subject">Subject:</label></td>
+                <td><input type="text" id="subject" placeholder="programming" required /></td>
+            </tr>
 
-       <div class="form-group">
-            <label for="comment">Comment</label>
-            <textarea id="comment" required></textarea>
-       </div>
+            <tr>
+                <td> <label for="country">Country:</label></td>
+                <td>
 
-       <div class="form-group">
-            <label for="gender">Gender</label>
-            
-            <div>
-                <label for="M">M</label>
-                <input type="radio" name="gender" id="M" />
-
-                <label for="F">F</label>
-                <input type="radio" name="gender" id="F">
-            </div>
-
-       </div>
+                    <select id="country" required>
+                        <option disabled selected>none</option>
+                        <option value="cameroon">Cameroon</option>
+                        <option value="nigeria">Nigeria</option>
+                        <option value="togo">Togo</option>
+                        <option value="gabon">Gabon</option>
+                    </select>
+                </td>
+            </tr>
 
 
-       <div class="form-group">
+            <tr>
+                <td> <label for="comment">Comment:</label></td>
+                <td> <textarea id="comment" required></textarea></td>
+            </tr>
 
-            <label for="level">Highest degree level</label>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <label for="M">M</label>
+                    <input type="radio" name="gender" id="M" />
 
-            <div class="levels">
-                
-                <div>
-                    <input type="checkbox" id="post-doc">
-                    <label for="post-doc">Post-Doc</label>
-                </div>
+                    <label for="F">F</label>
+                    <input type="radio" name="gender" id="F">
+                </td>
+            </tr>
 
-                <div>
-                    <input type="checkbox" id="phd">
-                    <label for="phd">PhD</label>
-                </div>
+            <tr>
+                <td> <label for="level">Highest degree level:</label></td>
+                <td>
+                    <div class="levels">
 
-                <div>
-                    <input type="checkbox" id="msc">
-                    <label for="msc">Master/Msc</label>
-                </div>
+                        <div>
+                            <input type="checkbox" id="post-doc">
+                            <label for="post-doc">Post-Doc</label>
+                        </div>
 
-                <div>
-                    <input type="checkbox" id="bsc">
-                    <label for="bsc">Licence/Bsc</label>
-                </div>
+                        <div>
+                            <input type="checkbox" id="phd">
+                            <label for="phd">PhD</label>
+                        </div>
 
-                <div>
-                    <input type="checkbox" id="bacc">
-                    <label for="bacc">BACC/AL-GCE</label>
-                </div>
+                        <div>
+                            <input type="checkbox" id="msc">
+                            <label for="msc">Master/Msc</label>
+                        </div>
 
-            </div>
+                        <div>
+                            <input type="checkbox" id="bsc">
+                            <label for="bsc">Licence/Bsc</label>
+                        </div>
 
-       </div>
+                        <div>
+                            <input type="checkbox" id="bacc">
+                            <label for="bacc">BACC/AL-GCE</label>
+                        </div>
 
-  
-       <button type="reset">Reset</button>
-       <button type="submit">Submit</button>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
 
     </form>
-  
-        
 
 
-    
+
+
+
 </body>
+
 </html>
